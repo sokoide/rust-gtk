@@ -5,8 +5,11 @@
 * This is to build GTK3 app on Apple Silicon Mac, Intel Mac and Intel Windows
 * GTK4 is not yet tested
 * MacOS
+
 ![macos](static/macos.png)
+
 * Windows
+
 ![windows](static/windows.png)
 
 ## How To Build
@@ -47,6 +50,7 @@ cargo build --target
 arch -x86_64 /usr/local/bin/brew install gtk+3
 # if you change PKG_CONFIG* env vars, reinstall gtk+3
 ```
+
 * Build
 
 ```bash
